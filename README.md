@@ -53,7 +53,7 @@ A simple chatbot project initially built for console interactions, later upgrade
 ---
 
 ## 📸 Project Screenshots
-![Screenshot1](/bot_image.png)
+![Screenshot1](/bot_screen.png)
 
 ---
 
