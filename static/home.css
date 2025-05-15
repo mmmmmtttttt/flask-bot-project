@@ -1,0 +1,155 @@
+.sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin: 50px auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    animation-timing-function: .5;
+    animation-duration: .2;
+    animation-name: shado;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+
+@keyframes shado {
+    0% {
+        box-shadow: 1px 1px 1px rgb(152, 58, 239);
+    }
+    25% {
+        box-shadow: 1px 2px 1px rgb(152, 58, 239);
+    }
+    50% {
+        box-shadow: 1px 2px 2px rgb(152, 58, 239);
+    }
+    75% {
+        box-shadow: 1px 2px 3px rgb(152, 58, 239);
+    }
+    100% {
+        box-shadow: 1px 2px 4px rgb(152, 58, 239);
+    }
+
+}
+
+.sec h2 {
+    color: rgb(72, 72, 72);
+    margin-bottom: 10px;
+}
+
+.sec form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.sec form div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+    /*background-color: antiquewhite;*/
+}
+
+.sec form .box-message {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /*border: 2px solid blueviolet;*/
+    overflow-y: auto;
+    border-radius: 5px;
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    gap: 10px;
+    scroll-behavior: smooth;
+}
+
+/* تصميم السكرول بار نفسه */
+.box-message::-webkit-scrollbar {
+    width: 8px; /* عرض الشريط */
+}
+
+.box-message::-webkit-scrollbar-track {
+    background: rgb(219, 189, 247); /* خلفية المسار */
+    border-radius: 10px;
+}
+
+.box-message::-webkit-scrollbar-thumb {
+    background-color: rgb(152, 58, 239); /* لون مقبض السكرول */
+    border-radius: 10px;
+    border: 2px solid #f0f0f0; /* مسافة بسيطة حوالين المقبض */
+}
+
+.box-message::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* لون المقبض عند التمرير */
+}
+
+.sec form .box-message .send {
+    background-color: rgb(210, 178, 240);
+    padding: 5px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: 0px 1px 1px rgb(182, 182, 182);
+}
+
+.sec form .box-message .reply {
+    padding: 5px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 90%;
+}
+
+.sec form .text-message {
+    /*border-top: 2px solid blueviolet;
+    border-right: 2px solid blueviolet;
+    border-left: 2px solid blueviolet;*/
+    box-shadow: 1px 2px 3px rgb(165, 165, 165);
+    border-radius: 20px;
+    font-size: 18px;
+    overflow-y: auto;
+    width: 100%;
+    padding: 8px 10px;
+}
+
+
+.sec form .text-message textarea {
+    outline: none;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    resize: none;
+    min-height: 1.5em; /* تقريبا سطر واحد */
+    max-height: calc(1.5em * 6); /* 6 أسطر */
+    padding: 8px;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.sec form .text-message button {
+    border-radius: 50%;
+    border: none;
+    padding: 5px;
+    background-color: rgb(31, 30, 30);
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 2px rgb(138, 137, 137);
+    align-self: flex-end;
+    transition: all .5s;
+}
+
+.sec form .text-message button:hover {
+    background-color: rgb(95, 95, 95);
+}

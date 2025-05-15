@@ -1,0 +1,17 @@
+{% extends 'main.html' %}
+{% block body %}
+
+<section class="sec">
+    <h2>Chat Bot</h2>
+    <form action="">
+        <div class="box-message">
+            
+        </div>
+        <div class="text-message">
+            <textarea name="message" id="userInput" rows="1" placeholder="Ask anything"></textarea>
+            <button onclick="sendMessage(event)">Send</button>
+        </div>
+    </form>
+</section>
+
+{% endblock %}

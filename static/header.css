@@ -1,0 +1,39 @@
+.nav_bar {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 0px 2px 4px 1px rgb(194 142 200);
+    margin-bottom: 30px;
+}
+
+.nav_bar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.nav_bar ul li {
+    font-size: 18px;
+    list-style: none;
+    padding: 5px;
+}
+
+.nav_bar ul li a {
+    text-decoration: none;
+    color: rgb(48, 47, 47);
+    transition: all .3s linear;
+}
+
+.nav_bar ul li a:hover {
+    color: rgb(129, 18, 233);
+}
+
+.active_one:active {
+    color: blueviolet;
+}
+
+.active_two:active {
+    color: blueviolet;
+}

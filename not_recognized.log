@@ -1,0 +1,64 @@
+(15-05-2025 13:16:20) | werkzeug | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:9000
+(15-05-2025 13:16:20) | werkzeug | INFO | [33mPress CTRL+C to quit[0m
+(15-05-2025 13:16:20) | werkzeug | INFO |  * Restarting with stat
+(15-05-2025 13:16:21) | werkzeug | WARNING |  * Debugger is active!
+(15-05-2025 13:16:21) | werkzeug | INFO |  * Debugger PIN: 105-790-275
+(15-05-2025 13:16:51) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:16:51] "GET / HTTP/1.1" 200 -
+(15-05-2025 13:16:52) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:16:52] "GET /static/main.css HTTP/1.1" 200 -
+(15-05-2025 13:16:52) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:16:52] "GET /static/header.css HTTP/1.1" 200 -
+(15-05-2025 13:16:52) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:16:52] "GET /static/home.css HTTP/1.1" 200 -
+(15-05-2025 13:16:53) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:16:53] "GET /static/js/main.js HTTP/1.1" 200 -
+(15-05-2025 13:16:53) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:16:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+(15-05-2025 13:17:16) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:17:16] "POST /send_message HTTP/1.1" 200 -
+(15-05-2025 13:17:32) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:17:32] "POST /send_message HTTP/1.1" 200 -
+(15-05-2025 13:17:46) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:17:46] "POST /send_message HTTP/1.1" 200 -
+(15-05-2025 13:18:26) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:18:26] "POST /send_message HTTP/1.1" 200 -
+(15-05-2025 13:24:00) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:24:00] "GET / HTTP/1.1" 200 -
+(15-05-2025 13:24:00) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:24:00] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+(15-05-2025 13:24:00) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:24:00] "[36mGET /static/header.css HTTP/1.1[0m" 304 -
+(15-05-2025 13:24:00) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:24:00] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+(15-05-2025 13:24:00) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:24:00] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+(15-05-2025 13:24:07) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:24:07] "POST /send_message HTTP/1.1" 200 -
+(15-05-2025 13:25:03) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:25:03] "GET / HTTP/1.1" 200 -
+(15-05-2025 13:25:03) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:25:03] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+(15-05-2025 13:25:03) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:25:03] "[36mGET /static/header.css HTTP/1.1[0m" 304 -
+(15-05-2025 13:25:03) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:25:03] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+(15-05-2025 13:25:03) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:25:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+(15-05-2025 13:25:10) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:25:10] "POST /send_message HTTP/1.1" 200 -
+(15-05-2025 13:25:30) | werkzeug | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:9000
+(15-05-2025 13:25:30) | werkzeug | INFO | [33mPress CTRL+C to quit[0m
+(15-05-2025 13:25:30) | werkzeug | INFO |  * Restarting with stat
+(15-05-2025 13:25:30) | werkzeug | WARNING |  * Debugger is active!
+(15-05-2025 13:25:30) | werkzeug | INFO |  * Debugger PIN: 105-790-275
+(15-05-2025 13:25:35) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:25:35] "GET / HTTP/1.1" 200 -
+(15-05-2025 13:25:35) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:25:35] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+(15-05-2025 13:25:35) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:25:35] "[36mGET /static/header.css HTTP/1.1[0m" 304 -
+(15-05-2025 13:25:35) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:25:35] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+(15-05-2025 13:25:35) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:25:35] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+(15-05-2025 13:25:41) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:25:41] "POST /send_message HTTP/1.1" 200 -
+(15-05-2025 13:26:11) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:26:11] "POST /send_message HTTP/1.1" 200 -
+(15-05-2025 13:45:45) | werkzeug | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:9000
+(15-05-2025 13:45:45) | werkzeug | INFO | [33mPress CTRL+C to quit[0m
+(15-05-2025 13:45:45) | werkzeug | INFO |  * Restarting with stat
+(15-05-2025 13:45:45) | werkzeug | WARNING |  * Debugger is active!
+(15-05-2025 13:45:45) | werkzeug | INFO |  * Debugger PIN: 105-790-275
+(15-05-2025 13:45:59) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:45:59] "GET / HTTP/1.1" 200 -
+(15-05-2025 13:45:59) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:45:59] "GET /static/main.css HTTP/1.1" 200 -
+(15-05-2025 13:46:00) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:46:00] "GET /static/header.css HTTP/1.1" 200 -
+(15-05-2025 13:46:00) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:46:00] "GET /static/home.css HTTP/1.1" 200 -
+(15-05-2025 13:46:00) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:46:00] "GET /static/js/main.js HTTP/1.1" 200 -
+(15-05-2025 13:46:00) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:46:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+(15-05-2025 13:46:03) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:46:03] "[33mGET /url_for('Home.html') HTTP/1.1[0m" 404 -
+(15-05-2025 13:47:47) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:47:47] "[33mGET /url_for('Home.html') HTTP/1.1[0m" 404 -
+(15-05-2025 13:47:53) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:47:53] "GET / HTTP/1.1" 200 -
+(15-05-2025 13:47:53) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:47:53] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+(15-05-2025 13:47:54) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:47:54] "[36mGET /static/header.css HTTP/1.1[0m" 304 -
+(15-05-2025 13:47:54) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:47:54] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+(15-05-2025 13:47:54) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:47:54] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+(15-05-2025 13:47:55) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 13:47:55] "[33mGET /static/Home.html HTTP/1.1[0m" 404 -
+(15-05-2025 14:18:29) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 14:18:29] "POST /send_message HTTP/1.1" 200 -
+(15-05-2025 14:18:41) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 14:18:41] "POST /send_message HTTP/1.1" 200 -
+(15-05-2025 14:18:50) | werkzeug | INFO | 127.0.0.1 - - [15/May/2025 14:18:50] "POST /send_message HTTP/1.1" 200 -
