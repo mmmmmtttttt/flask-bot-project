@@ -116,7 +116,7 @@ This project is open-source for learning and personal development purposes.
 
 ---
 
-## 📸 صور المشروع
+© 2025 [mmmmmtttttt] - All rights reserved
 (قم بإضافة لقطات الشاشة هنا لاحقًا)
 
 ---
